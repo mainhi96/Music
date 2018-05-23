@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sony.mp3.ViewPlaylists"
+    android:background="@drawable/background1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm Playlist"
+            android:id="@+id/addPlaylist"/>
+
+        <Button
+            android:id="@+id/delPlaylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa Playlist" />
+    </LinearLayout>
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchView"
+        android:layout_below="@+id/linearLayout"
+        ></SearchView>
+
+
+    <ListView
+        android:id="@+id/lvPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/searchView"
+        android:layout_marginTop="28dp"></ListView>
+
+</RelativeLayout>

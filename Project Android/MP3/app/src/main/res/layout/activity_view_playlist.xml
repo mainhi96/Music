@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sony.mp3.ViewPlayListSongs"
+    android:background="@drawable/background1">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linerLayout2"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm bài hát"
+            android:id="@+id/addSong"/>
+
+        <Button
+            android:id="@+id/delSong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa bài hát" />
+
+        <Button
+            android:id="@+id/btnPlayPl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/linerLayout2"
+            android:layout_toEndOf="@+id/linerLayout2"
+            android:layout_toRightOf="@+id/linerLayout2"
+            android:layout_weight="1"
+            android:text="Nghe Playlist" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plname"
+        android:text="Playlist Name"
+        android:layout_below="@id/linerLayout2"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchSong"
+        android:layout_below="@+id/plname"
+        ></SearchView>
+
+    <Button
+        android:id="@+id/btnChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linerLayout2"
+        android:layout_marginTop="11dp"
+        android:text="Đổi tên Playlist" />
+
+
+    <ListView
+        android:id="@+id/lvPlaylistSongs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnChange"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btnChange"
+        android:layout_below="@+id/searchSong"></ListView>
+
+</RelativeLayout>

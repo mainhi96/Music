@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DBMusic">
+  <DataContextMoniker Name="/DBMusicDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e8e9c255-806b-491e-9b96-fe6f46b39758" absoluteBounds="0.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DBMusicDataContext/account" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5d968a09-d4ee-423c-ab6b-ce88449b34b7" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b51d9158-d482-45ec-8a07-cb15e8f3ecce" absoluteBounds="0.75, 2.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DBMusicDataContext/comment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="29835142-edc8-4bc7-a959-2612ef97131c" absoluteBounds="0.765, 3.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1fa9f1e8-544b-4602-85b1-a5d93f88879d" absoluteBounds="3.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DBMusicDataContext/playlistinfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f9575b66-8d3a-4aaa-af03-d30f2201e720" absoluteBounds="3.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="214884b9-c638-4161-b41d-ef38ac9c46aa" absoluteBounds="3.75, 3.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/DBMusicDataContext/playlistsong" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3569834d-52e8-475b-b89c-8d0c6050c2e3" absoluteBounds="3.765, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8a6ae4b8-0fe6-45e2-bc06-dbc095e1116a" absoluteBounds="6.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DBMusicDataContext/song" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bb23df53-90e9-48be-9afd-14888235a8c2" absoluteBounds="6.765, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="27b5fda2-1f96-4f82-a104-69917f72a6db" absoluteBounds="7, 3.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DBMusicDataContext/vote" />
+      <nestedChildShapes>
+        <elementListCompartment Id="199737e7-290d-4af3-bc3a-96eb09d24f06" absoluteBounds="7.015, 3.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
